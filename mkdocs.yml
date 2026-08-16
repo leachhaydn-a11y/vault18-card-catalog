@@ -1,23 +1,28 @@
 site_name: Vault18 Card Catalog
-site_description: A comprehensive catalog of trading card collections
+site_url: https://vault18.github.io
 theme:
   name: material
   palette:
-    scheme: slate
-  features:
-    - navigation.tabs
-    - navigation.sections
-    - toc.integrate
+    primary: purple
+    accent: lime
+  font:
+    text: Roboto
+    code: Roboto Mono
 
 nav:
   - Home: index.md
-  - Collections:
-    - Magic: The Gathering: mtg/index.md
-    - Pokémon: pokemon/index.md
-    - Yu-Gi-Oh!: yugioh/index.md
-    - Lorcana: lorcana/index.md
-    - One Piece: onepiece/index.md
-  - Bulk Storage: bulk/index.md
+  - Magic: mtg/index.md
+  - Pokémon: pokemon/index.md
+  - Yu-Gi-Oh: yugioh/index.md
+  - Lorcana: lorcana/index.md
+  - One Piece: onepiece/index.md
+  - Bulk: bulk/index.md
+
+markdown_extensions:
+  - tables
+  - admonition
+  - toc
+  - attr_list
 
 plugins:
   - search
