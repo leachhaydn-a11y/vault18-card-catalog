@@ -11,7 +11,9 @@ theme:
 
 nav:
   - Home: index.md
-  - Magic: mtg/index.md
+  - Magic:
+    - Overview: mtg/index.md
+    - The Hobbit: mtg/hobbit.md
   - Pokémon: pokemon/index.md
   - Yu-Gi-Oh: yugioh/index.md
   - Lorcana: lorcana/index.md
